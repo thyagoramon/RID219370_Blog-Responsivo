@@ -1,0 +1,20 @@
+.section-bar {
+	background-color: var(--cor-verde);
+	height: 48px;
+	width: 100%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0.75rem 1.5rem;
+	
+	@media (max-width: 768px) {
+		justify-content: center;
+	}
+}
+
+.section-bar-title {
+	color: var(--cor-branco);
+	font-size: 1.25rem;
+	font-weight: 700;
+}
