@@ -55,10 +55,7 @@ body {
 .page-content {
 	height: 100%;
 	display: flex;
-	gap: 24px;
-	
-	@media (max-width: 1024px) {
-	}
+	gap: 1.5rem;	
 	@media (max-width: 768px) {
 		flex-direction: column;
 	}
@@ -68,39 +65,36 @@ body {
 	flex: 2;
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
+	gap: 1.5rem;
 }
 
 #recent {
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 1.5rem;
 }
 
 .postsContainer {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	gap: 24px;
+	gap: 1.5rem;
 
 	@media (max-width: 1024px) {
 		grid-template-columns: 1fr;
-	}
-	
-	@media (max-width: 768px) {
-	}
+	}	
 }
 
 #aside {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	gap: 24px;
+	gap: 1.5rem;
 }
 
 #trend {
 	display: flex;
 	flex-direction: column;
-	gap: 22px;
+	gap: 1.4rem;
 }
 
 #footer {

@@ -1,13 +1,13 @@
 #categories {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 1rem;
 }
 
 .categories-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 1rem;
   list-style: none;
 
   a {

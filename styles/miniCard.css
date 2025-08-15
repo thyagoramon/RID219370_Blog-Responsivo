@@ -1,7 +1,7 @@
 .miniCard {
   display: flex;
-  gap: 12px;
-  padding: 12px;
+  gap: 0.75rem;
+  padding: 0.75rem;
   border-radius: 10px;
   box-shadow: var(--sombra);
 }
@@ -17,7 +17,7 @@
 .miniCard-content {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
   h4 {
     font-weight: 700;
     font-size: 0.875rem;
