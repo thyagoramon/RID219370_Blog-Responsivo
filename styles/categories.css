@@ -1,0 +1,23 @@
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: none;
+
+  a {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    font-size: 1rem;
+    color: var(--cor-cinza);
+    font-weight: 600;
+  }
+}

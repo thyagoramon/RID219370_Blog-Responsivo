@@ -2,6 +2,8 @@
 @import url('styles/banner.css');
 @import url('styles/sectionBar.css');
 @import url('styles/postCard.css');
+@import url('styles/miniCard.css');
+@import url('styles/categories.css');
 
 :root {
 	--cor-branco: #fff;
@@ -44,6 +46,10 @@ body {
 	display: flex;
 	justify-content: center;
 	padding: 3.125rem 0;
+
+	@media (max-width: 768px) {
+		padding: 1rem 0;
+	}
 }
 
 .page-content {
@@ -65,18 +71,48 @@ body {
 	gap: 24px;
 }
 
-#aside {
-	flex: 1;
-}
-
 #recent {
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
+}
 
-	.postsContainer {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 24px;
+.postsContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+
+	@media (max-width: 1024px) {
+		grid-template-columns: 1fr;
+	}
+	
+	@media (max-width: 768px) {
+	}
+}
+
+#aside {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+#trend {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+}
+
+#footer {
+	height: 48px;
+	width: 100%;
+	background-color: var(--cor-verde);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	p {
+		font-size: 0.875rem;
+		color: var(--cor-branco);
+		font-weight: 500;
 	}
 }

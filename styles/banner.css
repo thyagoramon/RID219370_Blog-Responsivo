@@ -17,6 +17,7 @@
 	position: relative;
 
 	box-shadow: var(--sombra);
+	cursor: pointer;
 }
 
 #banner::before {

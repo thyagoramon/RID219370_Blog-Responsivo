@@ -1,0 +1,29 @@
+.miniCard {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: var(--sombra);
+}
+
+.miniCard-img {
+  width: 130px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.miniCard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  h4 {
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 0.75rem;
+    color: var(--cor-cinza);
+  }
+}
